@@ -1,0 +1,21 @@
+(footprint "TestPoint_Pad_D1.0mm_NoSIlk" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61D2152E)
+  (descr "SMD pad as test Point, diameter 1.0mm")
+  (tags "test point SMD pad")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.8) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bc66e069-0a16-46e5-92f8-ee11fc6ac797)
+  )
+  (fp_text value "TestPoint_Pad_D1.0mm_NoSIlk" (at 0 1.55) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a01a5cb1-8648-4081-b94c-484bd3986556)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -1.45) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 679f8e42-0a1f-4877-b03e-e6eefbc2d4fc)
+  )
+  (fp_circle (center 0 0) (end 1 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp c5831215-bba8-43ed-b308-3a8bfb96488f))
+  (pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask") (tstamp db52f282-58fb-44ab-a075-a9f3ebab7b19))
+)
